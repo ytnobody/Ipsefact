@@ -1,0 +1,23 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="shortcut icon" href="/static/favicon.ico" />
+  <title><: $title :></title>
+</head>
+<body>
+  <div class="title">
+    <h1><: $title :></h1>
+    <p>Global IP-Address Inspector API</p>
+  </div>
+
+  <div class="content">
+    <h2>What is <: $title :>?</h2>
+    <p><: $title :> is an Web-API that inspects your global IP address.</p>
+    <h3>Usage</h3>
+    <p>Simply, access to <a href="<: $root :>api/json"><: $root :>api/json</a></p>
+    <p>If you want to data in YAML format, access to <a href="<: $root :>api/yaml"><: $root :>api/yaml</a></p>
+  </div>
+
+  <address class="generated-by">Powered by <a href="https://metacpan.org/module/Nephia" target="_blank">Nephia</a></address>
+</body>
+</html>
