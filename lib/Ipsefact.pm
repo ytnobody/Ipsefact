@@ -21,9 +21,10 @@ path '/' => sub {
 
 path '/api/{type:(json|yaml)}' => sub {
     my $req = shift;
+    my $addr = req->env->{HTTP_X_REAL_IP} || req->address;
     my $data = { 
-        ip => req->address,
-        country => $ipc->inet_atocc(req->address),
+        ip => $addr,
+        country => $ipc->inet_atocc($addr),
     };
     param->{type} eq 'yaml' ? yaml_res($data) : $data;
 };
