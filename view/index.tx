@@ -16,6 +16,8 @@
     <h3>Usage</h3>
     <p>Simply, access to <a href="<: $root :>api/json"><: $root :>api/json</a></p>
     <p>If you want to data in YAML format, access to <a href="<: $root :>api/yaml"><: $root :>api/yaml</a></p>
+    <h2>I want to make change it. How I can?</h2>
+    <p>You can send pull-request on <a href="http://github.com/ytnobody/Ipsefact">github</a></p>.
   </div>
 
   <address class="generated-by">Powered by <a href="https://metacpan.org/module/Nephia" target="_blank">Nephia</a></address>
