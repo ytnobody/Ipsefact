@@ -51,7 +51,7 @@ ytnobody
 
 =head1 SEE ALSO
 
-Nephia
+L<http://ipsefact.ytnobody.net/>
 
 =head1 LICENSE
 
