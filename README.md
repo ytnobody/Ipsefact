@@ -1,27 +1,24 @@
-=head1 NAME
+# NAME
 
 Ipsefact - Global IP-Address Inspector as Web Application 
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
-  $ plackup
+    $ plackup
 
-=head1 DESCRIPTION
+# DESCRIPTION
 
 Ipsefact is web application based Nephia.
 
-=head1 AUTHOR
+# AUTHOR
 
 ytnobody
 
-=head1 SEE ALSO
+# SEE ALSO
 
-L<http://ipsefact.ytnobody.net/>
+[http://ipsefact.ytnobody.net/](http://ipsefact.ytnobody.net/)
 
-=head1 LICENSE
+# LICENSE
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-=cut
-
